@@ -11,9 +11,13 @@ substr() : 문자열, index1부터 개수만큼
 str.split('') : ''기준으로 배열로 리턴
 Array.join('') :  ''기준으로 문자열로 리턴
 ------------------------------------------
-str.String() : 숫자->문자열
+num.String() : 숫자->문자열
+num.toString() : 숫자->문자열
 str.toUpperCase() : 소->대문자
 str.toLowerCase() : 대->소문
+
+str.charCodeAt() : 아스키코드('A'->65)
+str.fromCharCode() : 숫자의 아스키 값 리턴(65-> 'A')
 ------------------------------------------
 중복 제거에 많이 씀...
 발견 못 할시 -1
