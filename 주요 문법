@@ -19,6 +19,8 @@ str.toLowerCase() : 대->소문
 발견 못 할시 -1
 str.indexOf('str') : 인덱스 값 반환
 Array.indexOf('array') : 인덱스 값 반환
+
+str.includes('str'): boolean 반환
 -------------------------------------------
 filter(): true 배열 리턴
 -------------------------------------------
